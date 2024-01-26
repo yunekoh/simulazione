@@ -1,11 +1,12 @@
-import { Routing } from "./pages/Routing";
-
+import { RouterProvider } from "react-router-dom";
 import "./assets/Global.css";
+
+import { router } from "./pages/Routing";
 
 function App() {
   return (
     <>
-      <Routing />
+      <RouterProvider router={router} />
     </>
   );
 }
