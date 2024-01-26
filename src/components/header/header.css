@@ -1,0 +1,20 @@
+#header-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    padding: 20px 20px 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: aquamarine;
+}
+
+#header-container #left-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
