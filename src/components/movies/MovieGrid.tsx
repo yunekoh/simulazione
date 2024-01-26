@@ -11,7 +11,7 @@ function MovieGrid({ movie }: MovieGridProps) {
   const { Title, imdbID, Poster } = movie;
 
   return (
-    <Link to={`/home/${imdbID}`}>
+    <Link to={`/${imdbID}`}>
       <div id="moviegrid-container">
         <div className="moviegrid-item">
           <p className="moviegrid-title">{Title}</p>
