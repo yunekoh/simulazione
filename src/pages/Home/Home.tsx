@@ -12,13 +12,12 @@ export async function HomeLoader() {
 
 function Home() {
   const movies = useLoaderData() as MovieType[];
-  getDetailMovie("tt0848228");
   return (
     <div id="home-container">
       <div id="movies-container">
         <SimpleGrid minChildWidth="200px" spacing={5} spacingX="0px">
           {movies.map((movie: MovieType) => (
-            <MoviesGrid movie={movie} />
+            <MoviesGrid key={movie.imdbID} movie={movie} />
           ))}
         </SimpleGrid>
       </div>
