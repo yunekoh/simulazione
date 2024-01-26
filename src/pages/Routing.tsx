@@ -10,13 +10,13 @@ export const router = createBrowserRouter([
     children: [
       {
         index: true,
-        path: "home",
+        path: "/",
         element: <Home />,
         loader: HomeLoader,
       },
 
       {
-        path: "home/:id",
+        path: "/:id",
         element: <SingleMovie />,
         loader: MovieLoader,
       },

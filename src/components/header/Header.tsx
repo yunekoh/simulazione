@@ -10,7 +10,7 @@ function Header() {
   return (
     <div id="header-container">
       <div id="left-section">
-        {location.pathname !== "/home" && <Link to="/home">Torna indietro</Link>}
+        {location.pathname !== "/" && <Link to="/">Torna indietro</Link>}
         <img id="logo" src={logo} alt="logo" width={100} />
       </div>
     </div>
