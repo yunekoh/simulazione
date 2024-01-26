@@ -1,12 +1,11 @@
-import { useEffect } from "react";
-import getDetailMovie from "./api/getDetailMovie";
+import { Routing } from "./pages/Routing";
+
+import "./assets/Global.css";
 
 function App() {
-  getDetailMovie("tt0111161").then((res) => console.log(res));
-
   return (
     <>
-      <div id="home-container">aa</div>
+      <Routing />
     </>
   );
 }

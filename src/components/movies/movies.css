@@ -1,0 +1,24 @@
+#moviegrid-container {
+    padding: 0px 10px;
+}
+
+#moviegrid-container .moviegrid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+#moviegrid-container .moviegrid-item .moviegrid-image {
+    border-radius: 7px;
+    width: 100%;
+}
+
+#moviegrid-container .moviegrid-item .moviegrid-title {
+    text-align: center;
+}

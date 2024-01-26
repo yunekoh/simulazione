@@ -1,0 +1,10 @@
+html,
+body {
+    font-family: 'PT Sans', sans-serif;
+    padding: unset;
+    margin: unset;
+    color: var(--text);
+    background-color: var(--background);
+    margin: 0 auto;
+    max-width: 900px;
+}
